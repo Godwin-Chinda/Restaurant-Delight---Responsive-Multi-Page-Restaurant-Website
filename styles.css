@@ -157,9 +157,9 @@ footer {
   .nav-links {
     display: none;
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 5px;
-    background-color: #1f2937;
+    background-color: #333;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
@@ -172,5 +172,23 @@ footer {
 
   .menu-toggle {
     display: block;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section h2 {
+    text-align: center;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 }
