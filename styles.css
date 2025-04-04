@@ -39,6 +39,10 @@ nav {
   color: #ff6347;
 }
 
+.logo {
+  margin: auto 0;
+}
+
 .menu-toggle {
   display: none;
   cursor: pointer;
