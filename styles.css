@@ -39,6 +39,11 @@ nav {
   color: #ff6347;
 }
 
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
 .hero-section {
   height: 100vh;
   background: url("Images/Restaurant-Internal.jpg") no-repeat center/cover;
@@ -146,4 +151,26 @@ footer {
   text-align: center;
   background-color: #333;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    background-color: #1f2937;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
