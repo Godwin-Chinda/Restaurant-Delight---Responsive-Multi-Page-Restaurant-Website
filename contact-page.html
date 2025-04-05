@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Delight - Home</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact-page.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -31,14 +32,28 @@
       <div class="contact-container">
         <form id="contactForm">
           <h2>Send a Message</h2>
-          <input type="text" id="name" placeholder="Your Name" required />
-          <input type="email" id="email" placeholder="Your Email" required />
+
+          <label for="name">Your Name</label>
+          <input type="text" id="name" autocomplete="name" placeholder="Enter your name" required />
+
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            autocomplete="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="message">Your Message</label>
           <textarea
             id="message"
-            placeholder="Your Message"
+            autocomplete="off"
+            placeholder="Enter your message"
             rows="5"
             required
           ></textarea>
+
           <button type="submit">Send</button>
         </form>
 
@@ -56,6 +71,6 @@
       <p>&copy; 2025 Restaurant Delight. All rights reserved.</p>
     </footer>
 
-    <script src="landing-page.js"></script>
+    <script src="contact-page.js"></script>
   </body>
 </html>
