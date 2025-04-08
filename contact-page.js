@@ -19,7 +19,7 @@ contactForm.addEventListener("submit", () => {
     return;
   }
 
-  // ✅ Log the data to the console
+  // Log the data to the console
   console.log("Form Submission:", {
     name: name,
     email: email,
