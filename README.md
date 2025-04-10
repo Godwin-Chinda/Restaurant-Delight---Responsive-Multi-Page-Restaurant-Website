@@ -58,7 +58,7 @@ Welcome to **Restaurant Delight**, a beautifully designed, fully responsive mult
 git clone https://github.com/Godwin-Chinda/Restaurant-Delight---Responsive-Multi-Page-Restaurant-Website.git
 ```
 
-2. **Open the `landing-page.html` file** in your browser to view the project.
+2. **Open the `index.html` file** in your browser to view the project.
 
 ---
 
