@@ -41,12 +41,12 @@ Welcome to **Restaurant Delight**, a beautifully designed, fully responsive mult
 
 ## Features
 
-- ✅ Clean, semantic HTML
-- ✅ Organized CSS with media queries for mobile
-- ✅ Toggle navigation menu for smaller screens
-- ✅ Meet Our Chefs section with hover effects
-- ✅ Contact form with basic validation
-- ✅ Hover animations for service and testimonial cards
+- Clean, semantic HTML
+- Organized CSS with media queries for mobile
+- Toggle navigation menu for smaller screens
+- Meet Our Chefs section with hover effects
+- Contact form with basic validation
+- Hover animations for service and testimonial cards
 
 ---
 
