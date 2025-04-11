@@ -70,6 +70,5 @@ git clone https://github.com/Godwin-Chinda/Restaurant-Delight---Responsive-Multi
 ---
 
 ## Acknowledgements
-Inspired by real-world restaurant websites
-
-Thanks to free resources from Unsplash and Pexels for placeholder images
+- Inspired by real-world restaurant websites
+- Thanks to free resources from Unsplash and Pexels for placeholder images
