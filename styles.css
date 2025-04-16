@@ -73,6 +73,7 @@ nav {
   color: black;
   font-weight: bold;
   border-radius: 10px;
+  border-style: none;
 }
 
 .explore-btn:hover {
